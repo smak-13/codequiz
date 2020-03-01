@@ -1,0 +1,130 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    margin: 0;    
+    color: #b0b3b6;    
+}
+.container{    
+    width: 90%;
+    max-width: 600px;
+    padding: 15px;
+    margin:auto;
+    margin-top: 50px;
+    background-color: rgb(10, 51, 112);
+    border: 1px solid rgb(245, 245, 245);
+    border-radius: 10px;
+}
+
+.btnGroup{
+    display:flex;
+    justify-content:space-between;
+}
+.responseBtn{
+    display: block;
+    margin: 5px 0;
+}
+button{    
+    margin:5px;
+    padding: 0px 5px;
+    border-radius: 5px;
+    border: unset;
+    color: white;
+    background-color: rgb(96, 100, 99);
+    font-family: inherit;
+    font-size: inherit;
+    cursor: pointer;
+    border:1px solid #666;
+    border-bottom-width:2px;
+}
+.center{
+    text-align: center;
+}
+label{
+    font-weight:bolder;
+    font-size: 1.25em;
+}
+p{
+    margin-bottom:5px;
+}
+a{
+    color:#777777;
+    text-decoration: none;
+}
+a:visited{
+    color:#777777;
+}
+button > a, button>a:visited{
+    color: white
+}
+#topBanner{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#topBanner > *{
+    margin: 10px 20px;
+    font-size: 1.25em;
+    align-items:center;
+}
+#timerCount{
+    display:inline-block;
+    text-align: right;
+    width:20px;
+}
+button:focus{
+    outline: none;
+    
+}
+button:active{
+    transform: translateY(1px);
+    filter: saturate(150%);
+    border-bottom-width:1px;
+}
+button:hover{
+    box-shadow: 2px 2px 3px 3px rgba(161,161,161,0.3);
+    
+}
+.bgRed{
+    background-color: rgb(180, 69, 69);
+    border-color:  rgb(124, 47, 47);
+}
+
+.disabled{
+    border-color: rgba(102,102,102,0.6);
+    cursor: not-allowed;
+    background-color: #eee;
+    opacity: 0.6;
+}
+form{
+    margin-bottom:5px;
+}
+
+small{
+    color: #999;
+}
+
+.timeLow{
+    color: red;
+    
+}
+@media  only screen and (max-width:460px){
+    .btnGroup{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    /* button{
+        margin: 0 20px;
+    } */
+    #generate{             
+        margin-bottom:10px;
+       
+    }
+    .container{
+        margin-top:0;
+    }
+    h1,h2{
+        margin-top: 0.1em;
+        margin-bottom: 0.1em;
+    }
+    
+}
