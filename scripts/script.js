@@ -161,7 +161,7 @@ function setHighScores(name, score){
         playerScore: score
     });
     localStorage.setItem("highScores",JSON.stringify(currentScores));
-    open("/Users/sophornmak/Desktop/bootcamp/github/quizcode/highscore.html", "_parent"); 
+    open("./highscore.html", "_parent"); 
 }
 init();
 

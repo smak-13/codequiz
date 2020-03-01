@@ -24,7 +24,7 @@ function loadHighScores(){
 function init(){
     loadHighScores();
     $("#back").on("click",function(){
-        open("/Users/sophornmak/Desktop/bootcamp/github/quizcode/index.html");
+        open("./index.html");
     });
 
     $("#clear").on("click", function(){
