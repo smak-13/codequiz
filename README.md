@@ -1,6 +1,6 @@
 Homework 4 - Web APIs: Code Quiz
 
-This is an code quiz game where the player is asked 15 multiple choice questions about Javascript given 75 seconds. The player final score is based on the time remained. For every question answered incorrectly, 15 seconds will be deducted from the outstanding time. The player scores can be saved on the "Higher Score" page.
+This is an code quiz game where the player is asked 15 multiple choice questions about Javascript given 75 seconds. The player final score is based on the time remained. For every question answered incorrectly, 15 seconds will be deducted from the outstanding time. The player scores can be saved on the "Higher Score" page at the end of the game.
 
 URL Code Quiz: https://smak-13.github.io/codequiz/index.html
 
